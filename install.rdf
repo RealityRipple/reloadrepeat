@@ -2,21 +2,21 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
  <Description about="urn:mozilla:install-manifest">
   <em:id>{60D4414D-327B-53E2-A6EC-97500D0E1F3B}</em:id>
-  <em:version>28.3</em:version>
+  <em:version>30.0</em:version>
   <em:type>2</em:type>
   <em:targetApplication>
    <Description>
-    <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
-    <em:minVersion>25.0a1pre</em:minVersion>
-    <em:maxVersion>28.*</em:maxVersion>
+    <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+    <em:minVersion>30.0</em:minVersion>
+    <em:maxVersion>30.*</em:maxVersion>
    </Description>
   </em:targetApplication>
   <em:name>ReloadRepeat</em:name>
   <em:description>Reloads webpages every so many seconds or minutes.</em:description>
   <em:creator>RealityRipple</em:creator>
   <em:developer>Jaap Haitsma</em:developer>
-  <em:homepageURL>https://realityripple.com/Software/Mozilla-Extensions/ReloadRepeat/</em:homepageURL>
-  <em:updateURL>https://realityripple.com/Software/Mozilla-Extensions/ReloadRepeat/update.rdf</em:updateURL>
+  <em:homepageURL>https://realityripple.com/Software/XUL/ReloadRepeat/</em:homepageURL>
+  <em:updateURL>https://realityripple.com/Software/XUL/ReloadRepeat/update.rdf</em:updateURL>
   <em:iconURL>chrome://reloadrepeat/skin/logo.png</em:iconURL>
   <em:iconURL64>chrome://reloadrepeat/skin/logo64.png</em:iconURL64>
  </Description>      
