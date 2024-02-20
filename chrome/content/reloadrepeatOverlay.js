@@ -158,7 +158,7 @@ var reloadrepeat = {
  contextPopup: function()
  {
   let cm = gContextMenu;
-  let hidden = cm.isTextSelected || cm.onLink || cm.onImage || cm.onTextInput;
+  let hidden = cm.isTextSelected || cm.isContentSelected || cm.onLink || cm.onImage || cm.onTextInput;
   document.getElementById('reloadrepeat_menu').hidden = hidden;
   if (!hidden)
    reloadrepeat.showPopupMenu('reloadrepeat');
